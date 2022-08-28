@@ -1,0 +1,151 @@
+*{
+    box-sizing: content-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;
+    /* margin: 10px 10px 10px 10px; */
+    font-weight: bold;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+header {
+    color: white;
+    padding: 20px 10px 10px 20px; /* Arriba - Derecha - Abajo - Izquierda */
+    margin-bottom: 10px;
+    background-color: rgb(28, 121, 237);
+    height: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    width: 100%;
+}
+
+.nav1 {
+    background-color: rgb(28, 71, 163);
+    font-size: 20px;
+    padding: 5px 10px 10px 20px;
+    font-weight: bold;
+    height: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.nav2 {
+    /* display: inline-block; */
+    background-color: rgb(56, 182, 251);
+    padding: 5px 20px 10px 20px;
+    width: 20%;
+    min-height: 500px;
+    box-sizing: content-box;
+}
+
+.nav2 div {
+    margin-top: 10px;
+    background-color: rgb(2, 152, 157);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(2, 152, 157);
+    padding: 5px 20px 10px 20px;
+    margin: 0 10px 0 10px;
+    width:60%;
+    min-height: 500px;
+    box-sizing: content-box;
+}
+
+main section {
+    padding: 5px 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color:rgb(200,200,200);
+    border: solid 1px black;
+}
+
+main section div {
+    display: flex;
+    flex-direction: column;
+}
+
+main section div article {
+    display: flex;
+    padding: 5px 20px 10px 20px;
+    flex-direction: column;
+    background-color: rgb(115, 115, 115);
+}
+
+main section div article div {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    background-color: rgb(115, 115, 115);
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    margin: 0 5px 0 10px;
+    min-height: 40%;
+    background-color: rgb(2, 152, 157);
+}
+
+.two {
+    display: flex;
+    width: 55%;
+    justify-content: center;
+    margin: 0 10px 0 5px;
+    min-height: 40%;
+    text-align: center;
+    background-color: rgb(2, 152, 157);
+}
+
+main section div aside {
+    display: flex;
+    padding: 5px 20px 10px 20px;
+    flex-direction: column;
+    background-color: rgb(115, 115, 115);
+}
+
+main section div aside div {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    background-color: rgb(115, 115, 115);
+}
+
+.tercer_columna {
+    background-color: rgb(56, 182, 251);
+    padding: 5px 20px 10px 20px;
+    width: 20%;
+    min-height: 500px;
+    box-sizing: content-box;
+}
+
+.tercer_columna div  {
+    margin-top: 10px;
+    background-color: rgb(2, 152, 157);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+    background-color: rgb(28, 71, 163);
+    font-size: 20px;
+    padding: 5px 10px 10px 20px;
+    font-weight: bold;
+    height: 20px;
+    margin-top: 10px;
+    height: 100%;
+
+}
+
