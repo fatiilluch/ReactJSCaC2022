@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML - CSS - Bootstrap">
+    <link rel="stylesheet" href="./styles.css" >
+    <title> ID CARD WEB Fátima Lluch </title>
+</head>
+<body>
+    <h1> Hola, soy Fátima Lluch </h1>
+    <div class="container"> <!-- caja padre -->
+        <p class="borde_colorido"> Soy Python developer <img src="./img/python.png" width="30erm"/> en búsqueda de perfeccionarme en FrontEnd <img src="./img/react.png" width="30erm"/> </p> <!-- hijo -->
+        <div class="borde_colorido"> 
+            <p>
+                &lt Alumna de Codo a Codo /&gt 
+            </p>
+            <p>
+                Tel: 0XXXX - 15XXXXXX
+            </p>
+        </div>
+    </div>
+    <br />
+    <button onclick="showMyName('Fati');"> Conoceme </button>
+    <script type="text/javascript" async defer>
+
+        function showMyName(texto)
+        {
+            alert("Hola " + texto);
+        }
+
+    </script>
+</body>
+</html>

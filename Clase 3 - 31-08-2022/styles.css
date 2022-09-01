@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+body {
+    background-image: url('./img/compu.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    position: relative;
+    top: 8em;
+    left: 17em;
+}
+
+p{
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    border: 2px deeppink solid;
+    padding: 10px 10px 10px 10px;
+    width: fit-content;
+    position: relative;
+    top: 15em;
+    left: 40em;
+}
+
+button{
+    position: relative;
+    top: 17em;
+    left: 40em;;
+    border: 1px solid #e00889; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #b51f83; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+}
+
+button:hover{
+    color: aqua;
+    background-color: crimson;
+}
+
+.borde_colorido {
+    border: 5px lightsalmon dotted;
+    padding: 0 15px 0 15px;
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
